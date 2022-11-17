@@ -1,0 +1,36 @@
+.admin__container{
+  width: 90%;
+  margin: 0 auto;
+  height: 400px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+  .admin__form{
+    h3{
+      width: 95%;
+      margin: 0 auto;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      margin: 20px auto;
+      gap: 20px;
+      input{
+        height: 50px;
+        font-size: 18px;
+      }
+      a{
+        text-align: center;
+      }
+      .admin__form-btn{
+        text-align: center;
+        background-color: #4087FB;
+        height: 45px;
+        font-size: 20px;
+        color: white;
+      }
+    }
+
+  }
+}
