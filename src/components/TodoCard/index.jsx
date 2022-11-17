@@ -32,7 +32,7 @@ function TodoCard({title, content, date, id, completed, edited ,get}) {
         <div className='card__header'>
           <p className='card__date'>
             <span>{date}</span>
-            <span>Edited: {edited.date.slice(0, 10)}</span>
+            <span>Edited: {edited?.date?.slice(0, 10)}</span>
           </p>
           
           <h3>{title}</h3>
